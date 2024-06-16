@@ -1,0 +1,70 @@
+.fundo{
+    background-color: #272439 !important;
+}
+
+    @media screen and (max-width: 990px){
+        .navegacao{
+            display: flex !important;
+            flex-direction: row !important;
+            justify-content: right !important  ;
+            align-items: start !important;
+        }
+    }
+    .custom-toggler {
+        border-color: #ffffff !important; /* Cor da borda */
+        background-color: antiquewhite !important;
+      }
+      
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+      }
+      .navbar-toggler{
+        border: #ffffff 1px solid !important;
+      }
+.fr{
+    margin-left: 120px;
+}
+.link2{
+    color: whitesmoke !important;
+    text-decoration: none !important;
+}
+.logoimg{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+@media screen and (max-width: 600px){
+    .logoimg{
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: left !important  ;
+    }
+}
+.meio{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.botao{
+    background: linear-gradient(#8B85F1 , #AA87FB);
+    color: white;
+    border-style: none;
+    width: 130px;
+    border-radius: 28px;
+    
+}
+.Subir{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+}
+.botaomenu2{
+    position: relative;
+}
+.w-c{
+    height: 500px;
+}
+

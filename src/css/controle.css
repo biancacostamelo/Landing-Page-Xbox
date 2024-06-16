@@ -1,0 +1,36 @@
+.body{
+    background: linear-gradient( #272439, #37345A)  !important;
+    font-size: 12pt !important;
+
+}
+.imagem{
+   height: 550px;
+   width: 550px;
+   filter: drop-shadow(10px 10px 80px rgba(167, 141, 235, 0.4));
+}
+li, ul{
+    color: whitesmoke;
+    list-style: none;
+}
+@media screen and (max-width: 1070px) {
+    .imagem {
+        height: 400px;
+        width: 400px;
+ }
+}
+@media screen and (max-width: 770px) {
+    .imagem {
+        height: 0px;
+        width: 0px;
+ }
+}
+@media screen and (max-width: 574px) {
+    .texto2 {
+        margin-bottom: 350px;
+ }
+}
+@media screen and (max-width: 770px) {
+    .texto2 {
+        float: left;
+ }
+}

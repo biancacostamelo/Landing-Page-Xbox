@@ -1,0 +1,108 @@
+.meiorow{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center !important;
+}
+.tamcol{
+    height: 650px !important;
+}
+.fl{
+    float: left;
+}
+.meiocol{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 500px !important;
+    justify-content: center !important;
+    text-align: left !important;
+}
+.fundo2{
+    background: linear-gradient( #272439, #37345A)  !important;
+
+}
+ p{
+    color: whitesmoke !important;
+}
+
+@media screen and (max-width: 600px) {
+    .fundo2 {
+        height: 700px !important;   
+    }
+  }
+@media screen and (max-width: 600px) {
+    .meiocol {
+        height: 300px !important;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: left;    
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .meiocol {
+        height: 300px !important;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: left;    
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .meiorow {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+h1{
+    background-image: linear-gradient(to right, #DFE8F2, #B18FEE);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35pt !important;
+ }
+ .imagembanner{
+    height: 650px;
+    width: 650px;
+ }
+ @media screen and (max-width: 1262px) {
+    .imagembanner {
+        height: 590px;
+        width: 590px;
+        margin-top: -80px;
+ }
+}
+@media screen and (max-width: 1158px) {
+    .imagembanner {
+        height: 490px;
+        width: 490px;
+        margin-top: -80px;
+ }
+}
+@media screen and (max-width: 966px) {
+    .imagembanner {
+        height: 390px;
+        width: 390px;
+        margin-top: -80px;
+ }
+}
+@media screen and (max-width: 384px) {
+    .imagembanner {
+        height: 290px;
+        width: 290px;
+        margin-top: 0px;
+ }
+}
+@font-face {
+    font-family:'minhafonte';
+    src:url("../fontes/LeagueSpartan-VariableFont_wght.ttf");
+}
+.body {
+    font-family:minhafonte;
+} 
+.fonte{
+    background-image: linear-gradient(to right, #DFE8F2, #B18FEE);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35pt !important;
+ }

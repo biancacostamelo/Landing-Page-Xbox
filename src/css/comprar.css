@@ -1,0 +1,71 @@
+.fundocomprar{
+    background: radial-gradient( #AD87FD , #9686FF);
+}
+.elemento{
+    margin-top: 150px;
+    height: 330px !important;
+    width: 884px !important;
+    border-radius: 75px !important;
+    border: 2px solid #B7DDFF !important;
+}
+.h3{
+    color: whitesmoke !important;
+}
+.h4{
+    color: #A5D1FD !important;
+}
+.imgpart2{
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+.imgpart1{
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-left: -65px;
+}
+.alignmeio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width: 1160px) {
+    .imgpart2 {
+        height: 0px;
+        width: 0px;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .imgpart1 {
+        height: 0px;
+        width: 0px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .elemento {
+        width: 694px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .elemento {
+        width: 494px !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .elemento {
+        width: 414px !important;
+    }
+}
+@media screen and (max-width: 422px) {
+    .elemento {
+        width: 300px !important;
+    }
+}
+.botao1{
+    background-color: whitesmoke;
+    color: rgb(31, 31, 31);
+    border-style: none;
+    width: 130px;
+    border-radius: 28px;
+}

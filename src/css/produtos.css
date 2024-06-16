@@ -1,0 +1,66 @@
+.card11{
+    background: radial-gradient(  #4D487E, #332F46);
+    width: 250px !important;
+    border-radius: 25px;
+}
+@media screen and (max-width: 1196px) {
+    .card11 {
+        width: 200px;
+ }
+}
+.meiorow66{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.meiocol2{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    justify-content: center !important;
+    text-align: left !important;
+}
+.meiocol3{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    justify-content: center !important;
+}
+.fontebranca{
+    color: whitesmoke !important;
+}
+.cardimagem{
+    height: 110px !important;
+    rotate: 25deg;
+}
+.tam56{
+    height: 400px !important;
+}
+.area{
+    display: flex;
+    flex-direction: row;
+}
+.imgavaliacao{
+    height: 80px;
+    width: 80px;
+    margin-top: -15px;
+}
+.botaocarrinho{
+    background: linear-gradient(#766EFF , #9A81FD);
+    height: 27px;
+    width: 147px;
+    border: none;
+    float: right;
+    border-radius: 7px;
+}
+.eclipse{
+    background: url(../img/Elipse1.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+.mn{
+    margin-top: -10px;
+}

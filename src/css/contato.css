@@ -1,0 +1,65 @@
+.nome{
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    width: 400px;
+    height: 45px;
+}
+@media screen and (max-width: 600px) {
+    .nome {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .nome {
+        width: 340px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .nome {
+        width: 250px;
+    }
+}
+.msg{
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    width: 1160px;
+    height: 205px;
+}
+
+@media screen and (max-width: 1210px) {
+    .msg {
+        width: 900px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .msg {
+        width: 700px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .msg {
+        width: 520px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .msg {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 415px) {
+    .msg {
+        width: 350px;
+    }
+}
+@media screen and (max-width: 372px) {
+    .msg {
+        width: 280px;
+    }
+}
+.meiorow2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
