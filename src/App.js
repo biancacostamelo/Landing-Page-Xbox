@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from './paginas/home.jsx';
 import Menu from './componentes/menu.jsx'

@@ -1,6 +1,5 @@
 import React from "react";
 import '../css/controle.css'
-import controles from '../img/controles.png'
 import controles01 from '../img/controles01.png'
 const Controle = () => {
     return (

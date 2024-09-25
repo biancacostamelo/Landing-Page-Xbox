@@ -1,12 +1,9 @@
 import React from "react";
-import imgcard from '../img/iconcontrole.png'
 import '../css/produtos.css'
 import avaliacao from '../img/iconavaliacao.png'
 import controleRoxo from '../img/controleRoxo.png'
 import controleVermelho from '../img/controleVermelho.png'
-import controleAzul from '../img/controleAzul.png'
 import controleBranco from '../img/controleBranco.png'
-import controleMisto from '../img/controleMisto.png'
 import fone from '../img/Fone.png'
 import gabinete from '../img/Gabinete.png'
 import XboxAdaptive from '../img/XboxAdaptiveController.png'

@@ -1,7 +1,5 @@
 import React from "react";
 import '../css/comprar.css'
-import imgpart1 from '../img/fundocontrolemeio1.png'
-import imgpart2 from '../img/fundocontrolemeio2.png'
 import imgpart55 from '../img/55fundocontrolemeio.png'
 import imgpart66 from '../img/66fundocontrolemeio.png'
 const Comprar = () => {

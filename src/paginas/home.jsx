@@ -1,5 +1,4 @@
 import React from "react";
-import controle from '../img/fundocontrole.png'
 import '../css/home.css'
 import botaoMenu1 from '../img/botaomenu.png'
 import imgalta from '../img/controlealta.png'

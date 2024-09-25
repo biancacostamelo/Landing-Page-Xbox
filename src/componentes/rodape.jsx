@@ -17,15 +17,15 @@ const Rodape = () => {
                         </div>
                         <div className="col-sm-3 pt-3 pb-3">
                             <h3 className="link">Quem somos</h3>
-                            <li><a className="link" href="">Sobre nós</a></li>
-                            <li><a className="link" href="">Carreiras</a></li>
+                            <li><a className="link" href="/">Sobre nós</a></li>
+                            <li><a className="link" href="/">Carreiras</a></li>
                         </div>
                         <div className="col-sm-3 pt-3 pb-3">
                             <h3 className="link">Precisa de ajuda?</h3>
                             <li><a className="link" href="#Contato">Contato</a></li>
-                            <li><a className="link" href="">Whatsapp</a></li>
-                            <li><a className="link" href="">Central de ajuda</a></li>
-                            <li><a className="link" href="">Duvidas frequentes</a></li>
+                            <li><a className="link" href="/">Whatsapp</a></li>
+                            <li><a className="link" href="/">Central de ajuda</a></li>
+                            <li><a className="link" href="/">Duvidas frequentes</a></li>
                         </div>
                         <div className="col-sm-3 pt-3 pb-3">
                             <h3 className="link">Contato</h3>

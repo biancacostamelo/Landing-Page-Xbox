@@ -4,7 +4,7 @@
     align-items: center !important;
 }
 .tamcol{
-    height: 650px !important;
+    height: 100vh;
 }
 .fl{
     float: left;
